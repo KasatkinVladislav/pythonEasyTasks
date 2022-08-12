@@ -1,4 +1,4 @@
-def arithmetic(x, y, oper):
+def arithmetic(x, y, oper): #simple calculator to do four operations (concatenation, substraction, division, multiplication)
     if oper == "+": 
         return x + y
     elif oper == "-":
