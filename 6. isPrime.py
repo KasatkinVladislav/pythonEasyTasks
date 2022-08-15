@@ -1,11 +1,16 @@
-def bankDeposit(amountMoney, years): #this function calculates sum of money on a bank deposit
-    sum = amountMoney
-    for oneYear in range(years):
-        sum = sum * 1.1
-    return sum
+def isPrime(number):
+    """this function can tell is the number prime"""
+    if number == 1:
+        return "this number is prime"
+    isPrimeBool = True
+    for i in range(2, number):
+        if (number % i) == 0:
+            isPrimeBool = False
+    if isPrimeBool:
+        return "this number is prime"
+    else:
+        return "this number is not prime"
 
-print("input amount of money")
-amountMoney = float(input())
-print("input count of years")
-years = int(input())
-print(bankDeposit(amountMoney, years))
+print("input number")
+number = int(input())
+print(isPrime(number))
