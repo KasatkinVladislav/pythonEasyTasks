@@ -1,8 +1,9 @@
-def isYearLeap(year): #this function can define, is inputted year leap or common
+def isYearLeap(year):
+        """this function can define, is inputted year leap or common"""
 	if year % 4 == 0:
-		print("Этот год високосный")
+		print("this year is leap")
 	else:
-		print("Этот год не високосный")
+		print("this year is common")
 		
-year = int(input("Введите год: "))
+year = int(input("input year: "))
 isYearLeap(year)

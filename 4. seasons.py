@@ -1,4 +1,5 @@
-def seasons(x): #this function can tell which season it is based on a number of a month
+def seasons(x):
+    """this function can tell which season it is based on a number of a month"""
     if x < 3 or x == 12: 
         return "it is winter"
     elif x < 6 and x > 2:

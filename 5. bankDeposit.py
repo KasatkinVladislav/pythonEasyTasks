@@ -1,4 +1,5 @@
-def bankDeposit(amountMoney, years): #this function calculates sum of money on a bank deposit
+def bankDeposit(amountMoney, years):
+    """this function calculates sum of money on a bank deposit"""
     sum = amountMoney
     for oneYear in range(years):
         sum = sum * 1.1
